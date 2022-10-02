@@ -32,7 +32,7 @@ public class BufferedStreams {
         reader.close();
 
         BufferedWriter writer =
-                Files.newBufferedWriter(Path.of("test"), StandardCharsets.UTF_8);
+                Files.newBufferedWriter(Path.of("test3"), StandardCharsets.UTF_8);
         writer.write("Hello, ");
         writer.write("world! ");
         writer.flush();

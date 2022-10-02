@@ -88,7 +88,7 @@ public class InputOutputStream {
          * you give the write() method a byte[], and it writes those bytes to the output stream.
          */
 
-        OutputStream out = Files.newOutputStream(Path.of("test"));
+        OutputStream out = Files.newOutputStream(Path.of("test4"));
         out.write("Hello, world".getBytes());
         out.close();
     }
