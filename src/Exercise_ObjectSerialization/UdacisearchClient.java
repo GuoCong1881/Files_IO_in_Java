@@ -101,7 +101,7 @@ public final class UdacisearchClient implements java.io.Serializable{
 
     @Override
     public String toString() {
-        return "UdacisearchClient{" +
+        return "Exercise_Jackson.UdacisearchClient{" +
                 "name='" + getName() + '\'' +
                 ", id=" + getId() +
                 ", quarterlyBudget=" + getQuarterlyBudget() +

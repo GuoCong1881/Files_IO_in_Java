@@ -28,5 +28,9 @@ public class ObjectSerialization {
             System.out.println(deserialized);
         }
     }
+    /**
+     * It's valuable to understand that Java's built-in object serialization exists, and how to use it, but
+     * most of the time you should avoid using it due to critical security issues.
+     */
 
 }

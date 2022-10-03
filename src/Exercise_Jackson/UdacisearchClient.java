@@ -15,6 +15,8 @@ public class UdacisearchClient implements Serializable{
     private ZoneId timeZone = ZoneId.of("UTC");
     private String billingAddress = "";
 
+    public UdacisearchClient() {}
+
 
     public UdacisearchClient(
             String name,
